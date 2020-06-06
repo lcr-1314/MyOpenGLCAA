@@ -1,7 +1,6 @@
 package com.sz.opengl;
 
 import android.view.Surface;
-import android.view.SurfaceView;
 
 public class CrNativeOpengl {
 
@@ -10,4 +9,6 @@ public class CrNativeOpengl {
     }
 
     public native void surfaceCreate(Surface surface);
+
+    public native void surfaceChange(int width, int height);
 }
